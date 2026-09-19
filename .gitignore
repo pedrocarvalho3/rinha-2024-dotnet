@@ -1,0 +1,84 @@
+# Build output
+bin/
+obj/
+out/
+artifacts/
+publish/
+
+# .NET generated files
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.app
+*.iobj
+*.ipdb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+nuget.exe
+
+# Test and coverage output
+TestResults/
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+*.trx
+*.opencover.xml
+*.cobertura.xml
+
+# IDEs and editors
+.vs/
+.vscode/
+.idea/
+*.DotSettings.user
+*.sln.iml
+*.swp
+*.swo
+*~
+
+# Rider / ReSharper
+_ReSharper*/
+*.ReSharper
+
+# Logs and diagnostics
+*.log
+logs/
+*.dmp
+
+# Local configuration and secrets
+appsettings.Local.json
+appsettings.*.local.json
+*.env
+.env
+.env.*
+!.env.example
+
+# Docker/local overrides
+docker-compose.override.yml
+compose.override.yaml
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
